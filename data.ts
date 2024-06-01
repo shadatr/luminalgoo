@@ -30,7 +30,7 @@ export const turkishhData:Data={
 
 export const englishData:Data={
     home:{sentence1:"Luminalgoo is a company established to make our lives easier.",sentence2:" Its name comes from lumin, meaning light and algorithm in Turkish.", sentence3:" We aim to take steps that make our lives easier and thus enlighten our daily lives with various algorithms."},
-    about:{sentence1:"The first of our projects is 'Two Wheel'.",sentence2:" The aim of our project is to deliver various products and medicines available in the pharmacy to your home and workplaces as quickly as possible, through our couriers, from the nearest pharmacy, thanks to our application."},
+    about:{sentence1:"The first of our projects is 'İki Teker'.",sentence2:" The aim of our project is to deliver various products and medicines available in the pharmacy to your home and workplaces as quickly as possible, through our couriers, from the nearest pharmacy, thanks to our application."},
     services:["Here's what our app offers you! Supplements (lozenge, collagen, sweetener), cosmetics, mother baby, facial care, personal care, cleansers, body care, vitamin mineral, hair care, eye lip, oral care, make-up, health, medical, sun care, orthopedics, children, You can order sports supplements and sexual health products. You can also order medications.",
      "Thanks to the artificial intelligence in our application, we plan to prevent unnecessary and incorrect drug use.", 
      "You can trust our sensitivity on this issue. You can record your blood pressure, sugar and weight and access the information easily for you and your doctor.", 
