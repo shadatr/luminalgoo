@@ -400,7 +400,7 @@ export function GlobeDemo() {
   ];
 
   return (
-    <div className="flex flex-row items-center justify-center py-20 h-screen md:h-auto dark:bg-black bg-white relative w-full h-screen">
+    <div className="lg:flex sm:hidden flex-row items-center justify-center py-20 gap-1 md:h-auto dark:bg-black bg-white relative w-full h-screen">
       <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
         <motion.div
           initial={{
@@ -417,8 +417,8 @@ export function GlobeDemo() {
           className="div"
         >
   
-          <p className="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 w-[800px] mt-2 mx-auto">
-            {data.home.sentence2}
+          <p className="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 lg:w-[800px] mt-2 mx-auto text-blue">
+            {data.home.sentence3}
           </p>
         </motion.div>
         <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40" />

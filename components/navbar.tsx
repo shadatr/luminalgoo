@@ -43,11 +43,11 @@ const Navbar = () => {
   return (
     <div className="flex w-screen">
       <div
-        className={` transtion-bg z-40 fixed w-screen lg:flex sm:hidden justify-center items-center p-8 text-xsm  ${
+        className={` transtion-bg z-40 fixed w-screen lg:flex sm:hidden items-center p-8 text-xsm justify-between  ${
           scroll ? "bg-aquaMarina text-blue" : "text-aquaMarina"
         }`}
       >
-        {/* <img className="" src={logo} /> */}
+        <div className="text-secondary text-md font-black">LUMIALGOO</div>
         <span className="flex w-[600px] justify-between items-center font-bold">
           <motion.a
             whileHover={{ x: 5 }}
@@ -82,22 +82,23 @@ const Navbar = () => {
             Contact Us
           </motion.a>
         </span>
-     <div onClick={handleToggle}>{isEnglish?"turkish":"english"}</div>
+     <div className="text-secondary font-black text-md cursor-pointer" onClick={handleToggle}>{isEnglish?"TR":"EN"}</div>
       </div>
-      <div className=" fixed z-50 lg:hidden text-secondary">
+      <div className=" fixed z-50 lg:hidden text-aquaMarina ">
         {!isMenuOpen && (
-          <div>
+          <div className="flex justify-between items-center">
             <IoMenu
               size={50}
               className="fixed top-0 bg-babyBlue rounded-full p-2 m-2 transition-opacity duration-300 hover:opacity-80"
               onClick={() => setIsMenuOpen(true)}
             />
-       
+            <div className=" fixed top-0  right-0 m-4 font-black text-md cursor-pointer" onClick={handleToggle}>{isEnglish?"TR":"EN"}</div>
+
           </div>
         )}
         {isMenuOpen && (
           <div
-            className={`fixed w-screen h-screen opacity-100 transition-opacity duration-300 bg-darkBlue
+            className={`fixed w-screen h-screen bg-secondary transition-opacity duration-300 bg-darkBlue
             `}
           >
             <IoClose
