@@ -38,5 +38,5 @@ export const englishData:Data={
       "You can take a good step for your health by informing your doctor about the side effects of the medications you use, by informing your doctor which medications are causing you symptoms." ,
       "From the medication reminders section, you can learn the time of the medications you will take and which medications you should take. In addition, you can benefit from coupons and discounts." ,
      "Thanks to online consultancy, you can convey your problems and get information about delivery time etc. You can gain knowledge on the subject.",],
-    contact:"Luminalgoo şirketi olarak bu proje başlangıç projemizdir. Gelişmelerden haberdar olmak ve daha fazlası için takipte kalın. Daha fazla projelerde görüşmek üzere!"
+    contact:"As Luminalgoo company, this project is our initial project. Stay tuned to be informed about developments and more. See you in more projects!"
 }
