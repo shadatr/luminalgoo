@@ -24,7 +24,7 @@ const Services = () => {
         {data.services.map((item, index) => (
           <BackgroundGradient
             key={index}
-            className=" bg-secondary rounded-[22px] w-full h-[320px] p-10 flex items-center justify-center text-blue font-medium text-center"
+            className=" bg-secondary rounded-[22px] w-full h-[320px] lg:p-10 sm:p-q flex items-center justify-center text-blue font-medium text-center"
           >
             <div>{item}</div>
           </BackgroundGradient>
