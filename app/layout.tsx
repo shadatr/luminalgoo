@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Provider } from "react-redux";
-import { store } from "@/redux/store";
 import { cn } from "@/utils/cn";
+import { Tajawal} from "next/font/google";
+import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Tajawal({style:"normal", weight:["200" , "300" , "400" , "500" ,"700", "800" ,"900"],subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Luminalgoo",
@@ -18,10 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body  className={cn(
-          "min-h-screen bg-background dark font-sans antialiased",
-  
-        )}>
+      <body className={inter.className}>
         {children}
       </body>
     </html>
