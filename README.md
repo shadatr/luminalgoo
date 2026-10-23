@@ -1,9 +1,12 @@
 # Luminalgoo
-Luminalgoo iss a platform that allows you to get your work done quickly and safely. You can easily receive everything you need via our expert couriers. 2Tekerlek serves you to receive your medicines, important documents or product exchanges and returns safely and on time. Choose 2Terlek for fast, reliable and practical solutions.
 
-## Technologies Used
+Bilingual (Turkish / English) company website for **Luminalgoo** and its courier service **2Tekerlek** — fast, reliable delivery of medicines, important documents, and product exchanges and returns.
 
-- **React**: Utilized for building the user interface and managing state.
-- **TypeScript**: Ensured type safety and improved code maintainability.- **Redux**: Employed for managing application state in complex scenarios.
-- **Framer Motion**: Used for creating interactive animations and transitions.
-- **Redux**: Employed for managing application state in complex scenarios.
+Built as freelance work in 2024. Live: https://luminalgoo.vercel.app
+
+## Technologies
+
+- **React** — user interface and component state
+- **TypeScript** — type safety and maintainability
+- **Redux** — application state management
+- **Framer Motion** — animations and transitions
